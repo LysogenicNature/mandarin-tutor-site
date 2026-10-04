@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/mandarin-tutor-site/sw.js', { scope: '/mandarin-tutor-site/' })})}
